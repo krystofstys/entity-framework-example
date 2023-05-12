@@ -8,6 +8,16 @@ In the _ModelFirst_ project the showcase of creating a database table from dotne
 
 Then in the _DatabaseFirst_ project the previously created database is used to generate the models and dbcontext.
 
+## Starting the database
+
+### Prerequisites
+
+[Docker desktop](https://www.docker.com/products/docker-desktop/)
+
+### Usage
+
+The database has its _docker-compose.yml_ file. The `docker-compose up` command starts up a docker container exposing the database on its port 5432.
+
 ## Important commands for the model first approach
 
 **These commands need to be used in the Package Manager Console.**
