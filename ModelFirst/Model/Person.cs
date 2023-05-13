@@ -13,6 +13,7 @@ namespace ModelFirst.Model
         public string Surname { get; set; }
         public string Email { get; set; }
         public int BirthNumber { get; set; }
+        public string Nickname { get; set; }
         public Address Address { get; set; }
         public virtual List<Company> Companies { get; set; }
     }

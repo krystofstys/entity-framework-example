@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 using (ExampleDbContext exampleDbContext = new())
 {
-    exampleDbContext.Database.EnsureCreated();
+    exampleDbContext.Database.Migrate();
 
     // Create a new address
     Address addressCompany1 = new()

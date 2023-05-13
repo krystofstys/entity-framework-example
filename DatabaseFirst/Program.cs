@@ -1,4 +1,4 @@
-﻿using DatabaseFirst.Models;
+﻿/*using DatabaseFirst.Models;
 using Microsoft.EntityFrameworkCore;
 
 using (OfficeContext dbContext = new())
@@ -16,4 +16,6 @@ using (OfficeContext dbContext = new())
     await dbContext.Offices
             .Select(x => x.Address.Country)
             .ForEachAsync(Console.WriteLine);
-}
+}*/
+
+Console.WriteLine("Final output");
